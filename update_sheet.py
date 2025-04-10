@@ -13,6 +13,6 @@ scope = [
 creds = ServiceAccountCredentials.from_json_keyfile_dict(creds_dict, scope)
 client = gspread.authorize(creds)
 
-sheet = client.open("Your Google Sheet Name").sheet1
+sheet = client.open("Sock Market Data").sheet1
 now = datetime.now().strftime("%Y-%m-%d %H:%M:%S")
 sheet.append_row(["Updated from GitHub Action at", now])
