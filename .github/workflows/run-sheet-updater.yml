@@ -26,4 +26,5 @@ jobs:
       - name: Run the script
         env:
           GOOGLE_CREDS_JSON: ${{ secrets.GOOGLE_CREDS_JSON }}
+          API_KEY: ${{ secrets.API_KEY }}
         run: python update_sheet.py
