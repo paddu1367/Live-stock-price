@@ -1,8 +1,8 @@
 name: Update Google Sheet
 
 on:
-  schedule:
-    - cron: "30 5 * * *"  # Runs at 05:30.
+  #schedule:
+    #- cron: "30 5 * * *"  # Runs at 05:30.
   workflow_dispatch:     # Allows manual trigger from GitHub
 
 jobs:

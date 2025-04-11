@@ -44,7 +44,7 @@ for i, symbol in enumerate(tickers):
         continue
 
     time_series = data["Monthly Adjusted Time Series"]
-    rows = [[]]
+    rows = []
 
     for date in time_series.keys():
         d = time_series[date]
