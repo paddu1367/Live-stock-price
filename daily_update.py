@@ -55,8 +55,7 @@ for i, symbol in enumerate(tickers):
             values["2. high"],
             values["3. low"],
             values["4. close"],
-            values["5. adjusted close"],
-            values["6. volume"]
+            values["5. volume"]
         ])
     else:
         print("Error: No time series found.")
