@@ -13,7 +13,7 @@ client = gspread.authorize(creds)
 
 # Open or create the spreadsheet
 sheet_title = "live stock"
-spreadsheet = client.open(sheet_title)
+spreadsheet = client.open(sheet_title).sheet1
 INTERVAL = '5min'
 
 # === Alpha Vantage Setup ===
